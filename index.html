@@ -2,6 +2,7 @@
 <html>
 <head>
     <title>CHMC</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -11,13 +12,12 @@
         body {
             font-family: 'PT Sans', sans-serif;
             background-color: #dfecff;
+            margin: 0;
+            padding: 0;
         }
         .central {
-            flex:1;
-            background-color:#264a6f;
-            margin: 0px auto;
-            text-color: white;
-            padding: 1px;
+            background-color: #264a6f;
+            padding: 10px;
             text-align: center;
             box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.1);
         }
@@ -32,31 +32,34 @@
             font-size: 1.2rem;
             color: white;
             line-height: 1.2;
+            margin-top: 5px;
         }
         .mainbox {
-            width:1000px;
+            width: 90%;
+            max-width: 1000px;
             background-color: white;
             margin: 20px auto;
             text-align: center;
-            padding: 1px;
+            padding: 1px 1px 20px 1px;
             box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.1);
         }
         .mainbox h1, .mainbox p {
             text-align: left;
-            padding-left: 30px
+            padding-left: 30px;
         }
         .mainbox h1 {
             margin-bottom: 10px;
-            margin-top:15px;
+            margin-top: 15px;
         }
         hr {
-            border: 0;            
-            height: 4px;              
+            border: 0;           
+            height: 4px;           
             background-color: #264a6f;
-            margin: -5px 0;         
+            margin: -5px 20px 15px 20px;
         }
         .central img {
-            width: 400px;
+            width: 80%;
+            max-width: 400px;
             height: auto;
             display: block;
             margin: 20px auto; 
